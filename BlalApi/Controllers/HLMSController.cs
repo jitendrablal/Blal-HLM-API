@@ -11,6 +11,7 @@ namespace BlalApi.Controllers
     [JwtAuthentication]
     public class HLMSController : ApiController
     {
+
         private readonly HLMSRepository _hlmsRepository;
         public HLMSController(HLMSRepository hlmsRepository)
         {
